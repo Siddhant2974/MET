@@ -12,7 +12,7 @@ def fmn(arr, n):
 
 
 arr = [1, 3, 4, 5, 6, 7] 
-n = 7  # The range is from  to 1
+n = 7  # The range is from  1to 7
 missing_number = fmn(arr, n)
 print(missing_number) 
 #Output : 2
