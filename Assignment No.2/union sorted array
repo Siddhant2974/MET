@@ -1,0 +1,9 @@
+def union_sorted_arrays(a, b):
+    union_set = set(a).union(set(b))
+    
+    return sorted(union_set)
+
+
+a = [0, 4, 3, 10, 5]
+b = [9, 3, 2, 5, 1]
+print(union_sorted_arrays(a, b))
